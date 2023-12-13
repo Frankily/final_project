@@ -30,6 +30,6 @@ conda activate plzz
 
 ### Usage:
 
-Due to file sizes, first generate the user item interactions graph and the item item interactions graph with the Data Preprocessing portion. BE wary of the size of graphs. 
+Due to file sizes, first generate the user item interactions graph and the item item interactions graph with the Data Preprocessing portion. BE wary of the size of graphs. Also, one must attain the metadata about the items by parsing the metadata file that is able to be downloaded online on https://jmcauley.ucsd.edu/data/amazon/ and https://www.yelp.com/dataset.
 
 To reproduce the results from the GAT model and the user embedding generation, follow the instructions in `final_model.ipynb`.
